@@ -1,0 +1,5 @@
+Invoices/
+__pycache__/
+*.csv
+*.docx
+*.env
