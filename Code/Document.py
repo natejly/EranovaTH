@@ -25,11 +25,8 @@ if _tax_rates_path.exists():
         tax_rates = json.load(f)
 else:
     tax_rates = {}
-class LineItem:
-    """
-    Represents a line item in an invoice.
-    """
     
+class LineItem:
     def __init__(self, description, quantity, unit_price, total_price, category=None):
         self.description = description
         self.quantity = quantity
@@ -38,17 +35,9 @@ class LineItem:
         self.category = category
     
 class Document:
-    """
-    Represents an invoice document.
-    """
     
     def __init__(self, file_path):
-        """
-        Initialize a Document.
-        
-        Args:
-            file_path: Path to the document file
-        """
+
         self.file_path = Path(file_path)
         self.text = None
         self.invoiceID = None
@@ -56,20 +45,31 @@ class Document:
         self.AIPromptTokens = None
         self.AICompletionTokens = None
         self.ProcessingDateTime = None
-        self.InvoicePreTaxTotals = None
-        self.InvoicePostTaxTotals = None
-        self.InvoiceTaxTotals = None
         self.LineItems = []
         self.SpecialNotes = []
+        self.PreTaxTotal = 0
+        self.PostTaxTotal = 0
+        self.TaxTotal = 0
         
+    def process_totals(self):
+        self.PreTaxTotal = 0
+        self.TaxTotal = 0
+        self.PostTaxTotal = 0
+        
+        for item in self.LineItems:
+            item_tax_rate = 0
+            if item.category and item.category in tax_rates:
+                item_tax_rate = float(tax_rates[item.category]) / 100
 
-    
+            self.PreTaxTotal += item.total_price
+            self.TaxTotal += item.total_price * item_tax_rate
+            self.PostTaxTotal += item.total_price + item.total_price * item_tax_rate
+        
     def extract_text(self):
-        """Extract data from the document."""
         pdf_document = fitz.open(self.file_path)
-
+        
         text = ""
-
+        
         for page in pdf_document:
             text += page.get_text("text")
 
@@ -101,34 +101,22 @@ class Document:
         pdf_document.close()
 
         self.text = text
+        
     def parse_text(self, api_key=None, model="gpt-4o-mini"):
-        """
-        Parse the text of the document using OpenAI API.
-        
-        Args:
-            api_key: OpenAI API key. If None, will use environment variable OPENAI_API_KEY
-            model: OpenAI model to use (default: gpt-4o-mini)
-        
-        Returns:
-            dict: JSON dictionary with parsed invoice data
-        """
+
         if not self.text:
             raise ValueError("No text to parse. Call extract_text() first.")
         
-        # Get API key from parameter or environment variable
         if api_key is None:
             api_key = os.getenv("OPENAI_API_KEY")
             if not api_key:
                 raise ValueError("OpenAI API key not found. Set OPENAI_API_KEY environment variable or pass api_key parameter.")
         
-        # Initialize OpenAI client
         client = OpenAI(api_key=api_key)
         
-        # Get available categories from tax_rates
         available_categories = list(tax_rates.keys())
         categories_list = ", ".join(available_categories)
         
-        # Create prompt for OpenAI
         prompt = f"""Extract invoice information from the following text and return a JSON object with the following structure:
                 {{
                     "invoiceID": "invoice number or ID",
@@ -154,7 +142,6 @@ class Document:
                 Return only valid JSON, no additional text or explanation."""
 
         try:
-            # Make API call
             response = client.chat.completions.create(
                 model=model,
                 messages=[
@@ -165,7 +152,6 @@ class Document:
                 temperature=0
             )
             
-            # Extract response
             content = response.choices[0].message.content
             parsed_data = json.loads(content)
             
@@ -191,6 +177,8 @@ class Document:
                 self.LineItems.append(line_item)
             
             self.SpecialNotes = parsed_data.get("SpecialNotes", [])
+            
+            self.process_totals()
             
             return {
                 "invoiceID": self.invoiceID,
@@ -218,9 +206,9 @@ class Document:
             "AIPromptTokens": self.AIPromptTokens,
             "AICompletionTokens": self.AICompletionTokens,
             "ProcessingDateTime": self.ProcessingDateTime,
-            "InvoicePreTaxTotals": self.InvoicePreTaxTotals,
-            "InvoicePostTaxTotals": self.InvoicePostTaxTotals,
-            "InvoiceTaxTotals": self.InvoiceTaxTotals,
+            "PreTaxTotal": self.PreTaxTotal,
+            "TaxTotal": self.TaxTotal,
+            "PostTaxTotal": self.PostTaxTotal,
             "LineItems": [
                 {
                     "description": item.description,
@@ -234,14 +222,18 @@ class Document:
             "SpecialNotes": self.SpecialNotes
         }
         
-        
 def main():
     """Main function to run the document processing."""
+    from JSONData import JSONData
+    
+    json_data = JSONData("storage/invoices.json")
+    
     document = Document("Invoices/AlphaImportInvoice.pdf")
     document.extract_text()
     document.parse_text()
-    print(document.to_dict())
-
+    
+    json_data.add(document)
+    json_data.print_summary()
+    
 if __name__ == "__main__":
     main()
-    
