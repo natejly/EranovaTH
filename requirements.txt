@@ -1,0 +1,10 @@
+streamlit
+openai
+python-dotenv
+pypdf
+fitz
+pytesseract
+pdf2image
+Pillow
+PyMuPDF
+
