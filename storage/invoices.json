@@ -1,0 +1,1295 @@
+{
+    "documents": [
+      {
+        "invoiceID": "2512232",
+        "Filename": "1.pdf",
+        "AIPromptTokens": 692,
+        "AICompletionTokens": 752,
+        "ProcessingDateTime": "2025-10-31T10:47:07.443039",
+        "PreTaxTotal": 7254.67,
+        "TaxTotal": 0.0,
+        "PostTaxTotal": 7254.67,
+        "LineItems": [
+          {
+            "description": "Seedless Red Grapes 2 lb Clamshell",
+            "quantity": 150.0,
+            "unit_price": 5.49,
+            "total_price": 823.5,
+            "category": "Fresh Produce"
+          },
+          {
+            "description": "Navel Oranges 4 lb Bag",
+            "quantity": 300.0,
+            "unit_price": 6.49,
+            "total_price": 1947.0,
+            "category": "Fresh Produce"
+          },
+          {
+            "description": "Hass Avocados 4 Count Bag",
+            "quantity": 100.0,
+            "unit_price": 5.99,
+            "total_price": 599.0,
+            "category": "Fresh Produce"
+          },
+          {
+            "description": "Roma Tomatoes 2 lb Bag",
+            "quantity": 305.0,
+            "unit_price": 3.29,
+            "total_price": 1003.45,
+            "category": "Fresh Produce"
+          },
+          {
+            "description": "Baby Carrots 2 lb Bag",
+            "quantity": 40.0,
+            "unit_price": 2.99,
+            "total_price": 119.6,
+            "category": "Fresh Produce"
+          },
+          {
+            "description": "Fresh Broccoli Crowns 1 lb",
+            "quantity": 340.0,
+            "unit_price": 2.49,
+            "total_price": 846.6,
+            "category": "Fresh Produce"
+          },
+          {
+            "description": "Iceberg Lettuce Each Head",
+            "quantity": 230.0,
+            "unit_price": 1.79,
+            "total_price": 411.7,
+            "category": "Fresh Produce"
+          },
+          {
+            "description": "Chobani Greek Yogurt 4 Count Variety Pack",
+            "quantity": 90.0,
+            "unit_price": 6.49,
+            "total_price": 584.1,
+            "category": "Dairy Products"
+          },
+          {
+            "description": "Philadelphia Original Cream Cheese 8 oz",
+            "quantity": 88.0,
+            "unit_price": 3.49,
+            "total_price": 307.12,
+            "category": "Dairy Products"
+          },
+          {
+            "description": "Pepperidge Farm Whole Grain Bread 24 oz Loaf",
+            "quantity": 30.0,
+            "unit_price": 4.29,
+            "total_price": 128.7,
+            "category": "Bakery Items"
+          },
+          {
+            "description": "Arnold Country White Bread 24 oz Loaf",
+            "quantity": 80.0,
+            "unit_price": 3.99,
+            "total_price": 319.2,
+            "category": "Bakery Items"
+          },
+          {
+            "description": "Kings Hawaiian Sweet Rolls 12 Count",
+            "quantity": 30.0,
+            "unit_price": 5.49,
+            "total_price": 164.7,
+            "category": "Bakery Items"
+          }
+        ],
+        "SpecialNotes": [
+          "Total payment due in 30 days",
+          "Please include the invoice number on your check",
+          "Make all checks payable to Alpha Imports",
+          "If you have any questions about this invoice please contact Jacob Jacobson 8439879876"
+        ],
+        "_saved_at": "2025-10-31T10:47:07.443205"
+      },
+      {
+        "invoiceID": "25-15886",
+        "Filename": "25-15886.pdf",
+        "AIPromptTokens": 815,
+        "AICompletionTokens": 764,
+        "ProcessingDateTime": "2025-10-31T10:47:22.923194",
+        "PreTaxTotal": 7477.81,
+        "TaxTotal": 780.8201999999999,
+        "PostTaxTotal": 8258.6302,
+        "LineItems": [
+          {
+            "description": "Jack Daniel\u2019s Tennessee Whiskey \u2013 750 ml Bottle",
+            "quantity": 4.0,
+            "unit_price": 28.99,
+            "total_price": 115.96,
+            "category": "Alcoholic Beverages"
+          },
+          {
+            "description": "Marlboro Gold Cigarettes \u2013 Carton (10 Packs)",
+            "quantity": 34.0,
+            "unit_price": 89.99,
+            "total_price": 3059.66,
+            "category": "Tobacco Products"
+          },
+          {
+            "description": "Camel Blue Cigarettes \u2013 Carton (10 Packs)",
+            "quantity": 25.0,
+            "unit_price": 87.99,
+            "total_price": 2199.75,
+            "category": "Tobacco Products"
+          },
+          {
+            "description": "Copenhagen Long Cut \u2013 5 Cans",
+            "quantity": 26.0,
+            "unit_price": 38.49,
+            "total_price": 1000.74,
+            "category": "Tobacco Products"
+          },
+          {
+            "description": "Perdue Ground Chicken \u2013 1 lb",
+            "quantity": 40.0,
+            "unit_price": 6.49,
+            "total_price": 259.6,
+            "category": "Meat & Poultry"
+          },
+          {
+            "description": "Jennie-O Lean Ground Turkey \u2013 1 lb",
+            "quantity": 14.0,
+            "unit_price": 6.99,
+            "total_price": 97.86,
+            "category": "Meat & Poultry"
+          },
+          {
+            "description": "Oscar Mayer Bacon \u2013 16 oz Pack",
+            "quantity": 45.0,
+            "unit_price": 8.49,
+            "total_price": 382.05,
+            "category": "Meat & Poultry"
+          },
+          {
+            "description": "Hormel Chili with Beans \u2013 15 oz Can",
+            "quantity": 32.0,
+            "unit_price": 2.99,
+            "total_price": 95.68,
+            "category": "Canned Goods"
+          },
+          {
+            "description": "Chef Boyardee Beef Ravioli \u2013 15 oz Can",
+            "quantity": 14.0,
+            "unit_price": 2.49,
+            "total_price": 34.86,
+            "category": "Canned Goods"
+          },
+          {
+            "description": "Goya Black Beans \u2013 15.5 oz Can",
+            "quantity": 28.0,
+            "unit_price": 1.99,
+            "total_price": 55.72,
+            "category": "Canned Goods"
+          },
+          {
+            "description": "Heinz Tomato Ketchup \u2013 38 oz Bottle",
+            "quantity": 21.0,
+            "unit_price": 5.49,
+            "total_price": 115.29,
+            "category": "Condiments & Sauces"
+          },
+          {
+            "description": "French\u2019s Classic Yellow Mustard \u2013 20 oz Bottle",
+            "quantity": 16.0,
+            "unit_price": 3.79,
+            "total_price": 60.64,
+            "category": "Condiments & Sauces"
+          }
+        ],
+        "SpecialNotes": [
+          "Total payment due in 30 days",
+          "Please include the invoice number on your check"
+        ],
+        "_saved_at": "2025-10-31T10:47:22.923306"
+      },
+      {
+        "invoiceID": "25-16734",
+        "Filename": "25-16734.pdf",
+        "AIPromptTokens": 845,
+        "AICompletionTokens": 820,
+        "ProcessingDateTime": "2025-10-31T10:47:38.576950",
+        "PreTaxTotal": 4592.45,
+        "TaxTotal": 261.76225,
+        "PostTaxTotal": 4854.2122500000005,
+        "LineItems": [
+          {
+            "description": "Zyrtec Allergy Relief Tablets \u2013 30 Count",
+            "quantity": 20.0,
+            "unit_price": 22.49,
+            "total_price": 449.8,
+            "category": "Over-the-Counter Medicine"
+          },
+          {
+            "description": "Mucinex DM Extended-Release Tablets \u2013 20 Count",
+            "quantity": 20.0,
+            "unit_price": 15.99,
+            "total_price": 319.8,
+            "category": "Over-the-Counter Medicine"
+          },
+          {
+            "description": "Tums Antacid Chewable Tablets \u2013 160 Count",
+            "quantity": 20.0,
+            "unit_price": 7.99,
+            "total_price": 159.8,
+            "category": "Over-the-Counter Medicine"
+          },
+          {
+            "description": "NyQuil Cold & Flu Nighttime Relief \u2013 12 fl oz",
+            "quantity": 22.0,
+            "unit_price": 8.99,
+            "total_price": 197.78,
+            "category": "Over-the-Counter Medicine"
+          },
+          {
+            "description": "Centrum Adult Multivitamin \u2013 200 Count",
+            "quantity": 20.0,
+            "unit_price": 21.99,
+            "total_price": 439.8,
+            "category": "Vitamins & Supplements"
+          },
+          {
+            "description": "Nature Made Vitamin D3 \u2013 2000 IU, 100 Softgels",
+            "quantity": 40.0,
+            "unit_price": 12.99,
+            "total_price": 519.6,
+            "category": "Vitamins & Supplements"
+          },
+          {
+            "description": "Nature\u2019s Bounty Fish Oil \u2013 1200 mg, 200 Softgels",
+            "quantity": 30.0,
+            "unit_price": 16.49,
+            "total_price": 494.7,
+            "category": "Vitamins & Supplements"
+          },
+          {
+            "description": "One A Day Women\u2019s Multivitamin \u2013 100 Count",
+            "quantity": 23.0,
+            "unit_price": 13.99,
+            "total_price": 321.77,
+            "category": "Vitamins & Supplements"
+          },
+          {
+            "description": "Airborne Immune Support Gummies \u2013 63 Count",
+            "quantity": 20.0,
+            "unit_price": 18.99,
+            "total_price": 379.8,
+            "category": "Vitamins & Supplements"
+          },
+          {
+            "description": "Emergen-C Vitamin C Drink Mix \u2013 30 Pack",
+            "quantity": 19.0,
+            "unit_price": 13.99,
+            "total_price": 265.81,
+            "category": "Vitamins & Supplements"
+          },
+          {
+            "description": "Newport Menthol Cigarettes \u2013 Carton (10 Packs)",
+            "quantity": 10.0,
+            "unit_price": 94.49,
+            "total_price": 944.9,
+            "category": "Tobacco Products"
+          },
+          {
+            "description": "Diet Coke \u2013 12 Pack",
+            "quantity": 11.0,
+            "unit_price": 8.99,
+            "total_price": 98.89,
+            "category": "Soft Drinks"
+          }
+        ],
+        "SpecialNotes": [
+          "Total payment due in 30 days",
+          "If you have any questions about this invoice, please contact Jacob Jacobson, 843-987-9876",
+          "Thank You For Your Business!",
+          "Make all checks payable to Alpha Imports"
+        ],
+        "_saved_at": "2025-10-31T10:47:38.577089"
+      },
+      {
+        "invoiceID": "NVOICE2514463",
+        "Filename": "2025-10-10 15-43.pdf",
+        "AIPromptTokens": 728,
+        "AICompletionTokens": 743,
+        "ProcessingDateTime": "2025-10-31T10:47:55.720484",
+        "PreTaxTotal": 8853.52,
+        "TaxTotal": 640.3102,
+        "PostTaxTotal": 9493.830199999999,
+        "LineItems": [
+          {
+            "description": "Miracle Gro Potting Mix 2 cu ft Bag",
+            "quantity": 30.0,
+            "unit_price": 14.49,
+            "total_price": 434.7,
+            "category": "Plants & Seeds"
+          },
+          {
+            "description": "Schultz All Purpose Plant Food 10-15-10 Formula 4 tb",
+            "quantity": 20.0,
+            "unit_price": 10.99,
+            "total_price": 219.8,
+            "category": "Fertilizer & Soil"
+          },
+          {
+            "description": "Fox Farm Ocean Forest Potting Soil 15 cu ft",
+            "quantity": 162.0,
+            "unit_price": 18.99,
+            "total_price": 3076.38,
+            "category": "Fertilizer & Soil"
+          },
+          {
+            "description": "Sta Green Moisture Max Potting Mix 1 cu ft",
+            "quantity": 143.0,
+            "unit_price": 9.49,
+            "total_price": 1357.07,
+            "category": "Fertilizer & Soil"
+          },
+          {
+            "description": "Burpee Big Boy Tomato Seeds 30 Count Packet",
+            "quantity": 236.0,
+            "unit_price": 3.99,
+            "total_price": 941.64,
+            "category": "Plants & Seeds"
+          },
+          {
+            "description": "Ferry Morse Basil Herb Seeds 200 Count",
+            "quantity": 200.0,
+            "unit_price": 2.49,
+            "total_price": 498.0,
+            "category": "Plants & Seeds"
+          },
+          {
+            "description": "Bonnie Plants Bell Pepper Starter 4 Pot",
+            "quantity": 45.0,
+            "unit_price": 5.99,
+            "total_price": 269.55,
+            "category": "Plants & Seeds"
+          },
+          {
+            "description": "Moog Outer Tie Rod End ES800223",
+            "quantity": 32.0,
+            "unit_price": 39.99,
+            "total_price": 1279.68,
+            "category": "Automotive Parts"
+          },
+          {
+            "description": "Mobil 1 Full Synthetic Motor Oil 5W-30 Quart Jug",
+            "quantity": 13.0,
+            "unit_price": 28.99,
+            "total_price": 376.87,
+            "category": "Motor Oil"
+          },
+          {
+            "description": "Castrol GTX High Mileage 10W-40 Quart Bottle",
+            "quantity": 5.0,
+            "unit_price": 6.79,
+            "total_price": 33.95,
+            "category": "Motor Oil"
+          },
+          {
+            "description": "Valvoline Advanced Full Synthetic 0W-20 Quart Jug",
+            "quantity": 12.0,
+            "unit_price": 30.49,
+            "total_price": 365.88,
+            "category": "Motor Oil"
+          }
+        ],
+        "SpecialNotes": [
+          "Total payment due in 30 days",
+          "Please include the invoice number on your check",
+          "Make all checks payable to Beta Shipping",
+          "If you have any questions about this invoice please contact Mike Morgan 404-454-9987"
+        ],
+        "_saved_at": "2025-10-31T10:47:55.720557"
+      },
+      {
+        "invoiceID": "2517235",
+        "Filename": "2025-10-10 16-00.pdf",
+        "AIPromptTokens": 547,
+        "AICompletionTokens": 288,
+        "ProcessingDateTime": "2025-10-31T10:48:02.795545",
+        "PreTaxTotal": 300.0,
+        "TaxTotal": 21.000000000000004,
+        "PostTaxTotal": 321.0,
+        "LineItems": [
+          {
+            "description": "used collection of basketballs",
+            "quantity": 10.0,
+            "unit_price": 0.0,
+            "total_price": 0.0,
+            "category": "Toys & Games"
+          },
+          {
+            "description": "used soccer balls",
+            "quantity": 95.0,
+            "unit_price": 0.0,
+            "total_price": 0.0,
+            "category": "Toys & Games"
+          },
+          {
+            "description": "used Garmin watch",
+            "quantity": 1.0,
+            "unit_price": 300.0,
+            "total_price": 300.0,
+            "category": "Jewelry"
+          },
+          {
+            "description": "used collection of hiking boots",
+            "quantity": 1.0,
+            "unit_price": 0.0,
+            "total_price": 0.0,
+            "category": "Footwear"
+          }
+        ],
+        "SpecialNotes": [
+          "Total payment due in 30 days",
+          "Please include the invoice number on your check",
+          "No tax required",
+          "Make all checks payable to BetaShipping",
+          "If you have any questions about this invoice please contact Mike Morgan"
+        ],
+        "_saved_at": "2025-10-31T10:48:02.795621"
+      },
+      {
+        "invoiceID": "25-14234",
+        "Filename": "AlphaImportInvoice.pdf",
+        "AIPromptTokens": 838,
+        "AICompletionTokens": 744,
+        "ProcessingDateTime": "2025-10-31T10:48:17.498209",
+        "PreTaxTotal": 15438.879999999997,
+        "TaxTotal": 1758.8175999999999,
+        "PostTaxTotal": 17197.6976,
+        "LineItems": [
+          {
+            "description": "Guinness Draught Stout \u2013 4 Pack (14.9 fl oz Cans)",
+            "quantity": 55.0,
+            "unit_price": 9.99,
+            "total_price": 549.45,
+            "category": "Alcoholic Beverages"
+          },
+          {
+            "description": "Stella Artois Belgian Lager \u2013 6 Pack (11.2 fl oz Bottles)",
+            "quantity": 45.0,
+            "unit_price": 10.99,
+            "total_price": 494.55,
+            "category": "Alcoholic Beverages"
+          },
+          {
+            "description": "White Claw Hard Seltzer Variety Pack \u2013 12 Pack",
+            "quantity": 40.0,
+            "unit_price": 18.49,
+            "total_price": 739.6,
+            "category": "Alcoholic Beverages"
+          },
+          {
+            "description": "Jack Daniel\u2019s Tennessee Whiskey \u2013 750 ml Bottle",
+            "quantity": 45.0,
+            "unit_price": 28.99,
+            "total_price": 1304.55,
+            "category": "Alcoholic Beverages"
+          },
+          {
+            "description": "Tito\u2019s Handmade Vodka \u2013 1 Liter Bottle",
+            "quantity": 45.0,
+            "unit_price": 24.99,
+            "total_price": 1124.55,
+            "category": "Alcoholic Beverages"
+          },
+          {
+            "description": "Josh Cellars Cabernet Sauvignon \u2013 750 ml Bottle",
+            "quantity": 30.0,
+            "unit_price": 15.99,
+            "total_price": 479.7,
+            "category": "Alcoholic Beverages"
+          },
+          {
+            "description": "Marlboro Red Cigarettes \u2013 Carton (10 Packs)",
+            "quantity": 30.0,
+            "unit_price": 89.99,
+            "total_price": 2699.7,
+            "category": "Tobacco Products"
+          },
+          {
+            "description": "Camel Blue Cigarettes \u2013 Carton (10 Packs)",
+            "quantity": 23.0,
+            "unit_price": 87.99,
+            "total_price": 2023.77,
+            "category": "Tobacco Products"
+          },
+          {
+            "description": "Newport Menthol Cigarettes \u2013 Carton (10 Packs)",
+            "quantity": 20.0,
+            "unit_price": 94.49,
+            "total_price": 1889.8,
+            "category": "Tobacco Products"
+          },
+          {
+            "description": "American Spirit Original \u2013 Carton (10 Packs)",
+            "quantity": 19.0,
+            "unit_price": 95.99,
+            "total_price": 1823.81,
+            "category": "Tobacco Products"
+          },
+          {
+            "description": "Copenhagen Long Cut \u2013 5 Cans",
+            "quantity": 60.0,
+            "unit_price": 38.49,
+            "total_price": 2309.4,
+            "category": "Tobacco Products"
+          }
+        ],
+        "SpecialNotes": [
+          "Total payment due in 30 days",
+          "If you have any questions about this invoice, please contact Jacob Jacobson, 843-987-9876"
+        ],
+        "_saved_at": "2025-10-31T10:48:17.498285"
+      },
+      {
+        "invoiceID": "25-12788",
+        "Filename": "Invoice (1).pdf",
+        "AIPromptTokens": 702,
+        "AICompletionTokens": 446,
+        "ProcessingDateTime": "2025-10-31T10:48:26.016437",
+        "PreTaxTotal": 380.19,
+        "TaxTotal": 23.2136,
+        "PostTaxTotal": 403.40360000000004,
+        "LineItems": [
+          {
+            "description": "Coca-Cola Original \u2013 12 Pack (12 fl oz Cans)",
+            "quantity": 3.0,
+            "unit_price": 8.99,
+            "total_price": 26.97,
+            "category": "Soft Drinks"
+          },
+          {
+            "description": "Pepsi Cola \u2013 12 Pack (12 fl oz Cans)",
+            "quantity": 4.0,
+            "unit_price": 8.79,
+            "total_price": 35.16,
+            "category": "Soft Drinks"
+          },
+          {
+            "description": "Sprite Lemon-Lime Soda \u2013 12 Pack",
+            "quantity": 5.0,
+            "unit_price": 8.99,
+            "total_price": 44.95,
+            "category": "Soft Drinks"
+          },
+          {
+            "description": "Dr Pepper \u2013 12 Pack",
+            "quantity": 3.0,
+            "unit_price": 8.79,
+            "total_price": 26.37,
+            "category": "Soft Drinks"
+          },
+          {
+            "description": "Mountain Dew \u2013 12 Pack",
+            "quantity": 10.0,
+            "unit_price": 8.79,
+            "total_price": 87.9,
+            "category": "Soft Drinks"
+          },
+          {
+            "description": "Diet Coke \u2013 12 Pack",
+            "quantity": 11.0,
+            "unit_price": 8.99,
+            "total_price": 98.89,
+            "category": "Soft Drinks"
+          },
+          {
+            "description": "Starbucks Pike Place Roast Ground Coffee \u2013 12 oz Bag",
+            "quantity": 5.0,
+            "unit_price": 11.99,
+            "total_price": 59.95,
+            "category": "Coffee & Tea"
+          }
+        ],
+        "SpecialNotes": [
+          "Total payment due in 30 days",
+          "Please include the invoice number on your check"
+        ],
+        "_saved_at": "2025-10-31T10:48:26.016521"
+      },
+      {
+        "invoiceID": "25-13456",
+        "Filename": "Invoice (2).pdf",
+        "AIPromptTokens": 791,
+        "AICompletionTokens": 716,
+        "ProcessingDateTime": "2025-10-31T10:48:49.320797",
+        "PreTaxTotal": 16977.34,
+        "TaxTotal": 1187.0344000000002,
+        "PostTaxTotal": 18164.3744,
+        "LineItems": [
+          {
+            "description": "Reebok Nano Cross-Trainer Shoes",
+            "quantity": 4.0,
+            "unit_price": 124.99,
+            "total_price": 499.96,
+            "category": "Footwear"
+          },
+          {
+            "description": "Dr. Martens 1460 Boots \u2013 Black Smooth",
+            "quantity": 5.0,
+            "unit_price": 169.99,
+            "total_price": 849.95,
+            "category": "Footwear"
+          },
+          {
+            "description": "New Balance 574 Sneakers \u2013 Navy",
+            "quantity": 7.0,
+            "unit_price": 89.99,
+            "total_price": 629.93,
+            "category": "Footwear"
+          },
+          {
+            "description": "Sterling Silver Hoop Earrings \u2013 1 in Diameter",
+            "quantity": 5.0,
+            "unit_price": 49.99,
+            "total_price": 249.95,
+            "category": "Jewelry"
+          },
+          {
+            "description": "14K Gold Pendant Necklace \u2013 Heart Design",
+            "quantity": 15.0,
+            "unit_price": 229.0,
+            "total_price": 3435.0,
+            "category": "Jewelry"
+          },
+          {
+            "description": "Men\u2019s Stainless Steel Chain Bracelet",
+            "quantity": 23.0,
+            "unit_price": 89.99,
+            "total_price": 2069.77,
+            "category": "Jewelry"
+          },
+          {
+            "description": "Citizen Eco-Drive Stainless Steel Watch",
+            "quantity": 12.0,
+            "unit_price": 249.0,
+            "total_price": 2988.0,
+            "category": "Watches"
+          },
+          {
+            "description": "Fossil Chronograph Leather Watch \u2013 Brown",
+            "quantity": 11.0,
+            "unit_price": 149.0,
+            "total_price": 1639.0,
+            "category": "Watches"
+          },
+          {
+            "description": "Seiko Automatic Dive Watch \u2013 Blue Dial",
+            "quantity": 11.0,
+            "unit_price": 295.0,
+            "total_price": 3245.0,
+            "category": "Watches"
+          },
+          {
+            "description": "Everlast Heavy Boxing Bag \u2013 70 lb",
+            "quantity": 5.0,
+            "unit_price": 119.0,
+            "total_price": 595.0,
+            "category": "Sporting Goods"
+          },
+          {
+            "description": "Schwinn Adult Bike Helmet",
+            "quantity": 10.0,
+            "unit_price": 49.99,
+            "total_price": 499.9,
+            "category": "Sporting Goods"
+          },
+          {
+            "description": "Monopoly Classic Board Game",
+            "quantity": 12.0,
+            "unit_price": 22.99,
+            "total_price": 275.88,
+            "category": "Toys & Games"
+          }
+        ],
+        "SpecialNotes": [
+          "Total payment due in 30 days",
+          "Please include the invoice number on your check"
+        ],
+        "_saved_at": "2025-10-31T10:48:49.320889"
+      },
+      {
+        "invoiceID": "R109323223",
+        "Filename": "Invoice 1.pdf",
+        "AIPromptTokens": 589,
+        "AICompletionTokens": 441,
+        "ProcessingDateTime": "2025-10-31T10:48:58.883218",
+        "PreTaxTotal": 594.16,
+        "TaxTotal": 22.808,
+        "PostTaxTotal": 616.968,
+        "LineItems": [
+          {
+            "description": "Alpine Select Honeycrisp Apples",
+            "quantity": 4.0,
+            "unit_price": 5.99,
+            "total_price": 23.96,
+            "category": "Fresh Produce"
+          },
+          {
+            "description": "Highland Cup Breakfast Blend Coffee 10oz",
+            "quantity": 6.0,
+            "unit_price": 9.49,
+            "total_price": 56.94,
+            "category": "Coffee & Tea"
+          },
+          {
+            "description": "Tea Vale Jasmine Green Tea 20 Count",
+            "quantity": 14.0,
+            "unit_price": 5.29,
+            "total_price": 74.06,
+            "category": "Coffee & Tea"
+          },
+          {
+            "description": "Frostbite Meals Chicken Pot Pie 10oz",
+            "quantity": 14.0,
+            "unit_price": 4.99,
+            "total_price": 69.86,
+            "category": "Frozen Meals"
+          },
+          {
+            "description": "Northern Table Lasagna with Meat Sauce 38oz",
+            "quantity": 16.0,
+            "unit_price": 12.99,
+            "total_price": 207.84,
+            "category": "Frozen Meals"
+          },
+          {
+            "description": "Cozy Cuisine Mac Cheese Bowl 10oz",
+            "quantity": 20.0,
+            "unit_price": 4.79,
+            "total_price": 95.8,
+            "category": "Frozen Meals"
+          },
+          {
+            "description": "Heritage Foods Tomato Soup 105oz Can",
+            "quantity": 30.0,
+            "unit_price": 2.19,
+            "total_price": 65.7,
+            "category": "Canned Goods"
+          }
+        ],
+        "SpecialNotes": [
+          "For questions please contact Ryan Roynalds at 2144423242"
+        ],
+        "_saved_at": "2025-10-31T10:48:58.883267"
+      },
+      {
+        "invoiceID": "2517224",
+        "Filename": "Invoice_Scan.pdf",
+        "AIPromptTokens": 549,
+        "AICompletionTokens": 247,
+        "ProcessingDateTime": "2025-10-31T10:49:04.855949",
+        "PreTaxTotal": 776.09,
+        "TaxTotal": 92.04100000000001,
+        "PostTaxTotal": 868.131,
+        "LineItems": [
+          {
+            "description": "Lone St C Cigars",
+            "quantity": 44.0,
+            "unit_price": 16.4,
+            "total_price": 721.6,
+            "category": "Tobacco Products"
+          },
+          {
+            "description": "Highland Spicits whiskey",
+            "quantity": 1.0,
+            "unit_price": 44.0,
+            "total_price": 44.0,
+            "category": "Alcoholic Beverages"
+          },
+          {
+            "description": "Read Ock 6 pack Beer",
+            "quantity": 1.0,
+            "unit_price": 10.49,
+            "total_price": 10.49,
+            "category": "Alcoholic Beverages"
+          }
+        ],
+        "SpecialNotes": [
+          "Total payment due in 30 days",
+          "Please include the invoice number on your check",
+          "Make all checks payable to Alpha Imports",
+          "If you have any questions about this invoice please contact Jacob Jacobson at 8439879876"
+        ],
+        "_saved_at": "2025-10-31T10:49:04.856032"
+      },
+      {
+        "invoiceID": "2512345",
+        "Filename": "Invoice.pdf",
+        "AIPromptTokens": 683,
+        "AICompletionTokens": 623,
+        "ProcessingDateTime": "2025-10-31T10:49:17.224525",
+        "PreTaxTotal": 3762.48,
+        "TaxTotal": 301.68780000000004,
+        "PostTaxTotal": 4064.1678,
+        "LineItems": [
+          {
+            "description": "Bosch Premium Oil Filter Model 3330",
+            "quantity": 3.0,
+            "unit_price": 7.49,
+            "total_price": 22.47,
+            "category": "Automotive Parts"
+          },
+          {
+            "description": "Denso Iridium Spark Plug IK20 Pack of 4",
+            "quantity": 4.0,
+            "unit_price": 38.95,
+            "total_price": 155.8,
+            "category": "Automotive Parts"
+          },
+          {
+            "description": "ACDelco Front Brake Pads Ceramic GM Compatible",
+            "quantity": 5.0,
+            "unit_price": 54.0,
+            "total_price": 270.0,
+            "category": "Automotive Parts"
+          },
+          {
+            "description": "Heineken Premium Lager 6 Pack 12 fl oz Bottles",
+            "quantity": 3.0,
+            "unit_price": 11.49,
+            "total_price": 34.47,
+            "category": "Alcoholic Beverages"
+          },
+          {
+            "description": "Castrol GTX High Mileage 10W-40 1 Quart Bottle",
+            "quantity": 10.0,
+            "unit_price": 6.79,
+            "total_price": 67.9,
+            "category": "Automotive Parts"
+          },
+          {
+            "description": "Valvoline Advanced Full Synthetic 0W-20 5 Quart Jug",
+            "quantity": 11.0,
+            "unit_price": 30.49,
+            "total_price": 335.39,
+            "category": "Automotive Parts"
+          },
+          {
+            "description": "DieHard Silver Car Battery Group Size 35 640 CCA",
+            "quantity": 5.0,
+            "unit_price": 159.99,
+            "total_price": 799.95,
+            "category": "Car Batteries"
+          },
+          {
+            "description": "Optima Red Top AGM Battery Group 34 780 CCA",
+            "quantity": 3.0,
+            "unit_price": 229.0,
+            "total_price": 687.0,
+            "category": "Car Batteries"
+          },
+          {
+            "description": "Michelin Defender LTX MS Tire 265/70R17",
+            "quantity": 7.0,
+            "unit_price": 198.5,
+            "total_price": 1389.5,
+            "category": "Tires"
+          }
+        ],
+        "SpecialNotes": [
+          "Total payment due in 30 days",
+          "Please include the invoice number on your check",
+          "Make all checks payable to Alpha Imports",
+          "If you have any questions about this invoice please contact Jacob Jacobson 8439879876"
+        ],
+        "_saved_at": "2025-10-31T10:49:17.224630"
+      },
+      {
+        "invoiceID": "R-1093-12322",
+        "Filename": "R-1093-12322.pdf",
+        "AIPromptTokens": 717,
+        "AICompletionTokens": 478,
+        "ProcessingDateTime": "2025-10-31T10:49:26.626755",
+        "PreTaxTotal": 6129.6,
+        "TaxTotal": 451.94075000000004,
+        "PostTaxTotal": 6581.54075,
+        "LineItems": [
+          {
+            "description": "BrightWave Laundry Pods \u2013 42 Count",
+            "quantity": 50.0,
+            "unit_price": 15.99,
+            "total_price": 799.5,
+            "category": "Laundry Detergent"
+          },
+          {
+            "description": "EcoSoft Plant-Based Detergent \u2013 90 oz",
+            "quantity": 40.0,
+            "unit_price": 12.49,
+            "total_price": 499.6,
+            "category": "Laundry Detergent"
+          },
+          {
+            "description": "Dawn Ultra Dishwashing Liquid \u2013 38 oz Bottle",
+            "quantity": 25.0,
+            "unit_price": 4.29,
+            "total_price": 107.25,
+            "category": "Dish Soap"
+          },
+          {
+            "description": "Energizer MAX AA Batteries \u2013 24 Pack",
+            "quantity": 100.0,
+            "unit_price": 18.99,
+            "total_price": 1899.0,
+            "category": "Batteries"
+          },
+          {
+            "description": "Hamilton Beach 2-Slice Toaster \u2013 Brushed Steel",
+            "quantity": 25.0,
+            "unit_price": 34.99,
+            "total_price": 874.75,
+            "category": "Small Kitchen Appliances"
+          },
+          {
+            "description": "Gibson Stoneware Dinner Set \u2013 20 Piece",
+            "quantity": 20.0,
+            "unit_price": 59.99,
+            "total_price": 1199.8,
+            "category": "Dinnerware"
+          },
+          {
+            "description": "Threshold Ceramic Mug Set \u2013 6 Count",
+            "quantity": 30.0,
+            "unit_price": 24.99,
+            "total_price": 749.7,
+            "category": "Dinnerware"
+          }
+        ],
+        "SpecialNotes": [
+          "Do not tax, tax has already been applied to items in invoice",
+          "For questions, please contact Ryan Roynalds at: 214-442-3242"
+        ],
+        "_saved_at": "2025-10-31T10:49:26.626787"
+      },
+      {
+        "invoiceID": "R109324524",
+        "Filename": "R-1093-24524.pdf",
+        "AIPromptTokens": 585,
+        "AICompletionTokens": 463,
+        "ProcessingDateTime": "2025-10-31T10:49:36.761063",
+        "PreTaxTotal": 429802.79000000004,
+        "TaxTotal": 30783.772500000003,
+        "PostTaxTotal": 460586.56250000006,
+        "LineItems": [
+          {
+            "description": "Kobalt Adjustable Wrench Set 3 Piece",
+            "quantity": 40.0,
+            "unit_price": 1399.6,
+            "total_price": 55984.0,
+            "category": "Tools & Hardware"
+          },
+          {
+            "description": "Milwaukee Hammer Drill",
+            "quantity": 20.0,
+            "unit_price": 3580.0,
+            "total_price": 71600.0,
+            "category": "Tools & Hardware"
+          },
+          {
+            "description": "Behr Premium Interior Paint 1 Gallon",
+            "quantity": 50.0,
+            "unit_price": 2099.5,
+            "total_price": 104975.0,
+            "category": "Paint & Finishes"
+          },
+          {
+            "description": "Valspar Ultra Exterior Paint 1 Gallon",
+            "quantity": 35.0,
+            "unit_price": 1539.65,
+            "total_price": 53887.75,
+            "category": "Paint & Finishes"
+          },
+          {
+            "description": "Clear Spring Purified Water 24 Pack 16.9 fl oz",
+            "quantity": 16.0,
+            "unit_price": 10.384,
+            "total_price": 166.14,
+            "category": "Bottled Water"
+          },
+          {
+            "description": "Aqua Pure Natural Spring Water 6 Pack 1L",
+            "quantity": 10.0,
+            "unit_price": 8.99,
+            "total_price": 89.9,
+            "category": "Bottled Water"
+          },
+          {
+            "description": "Brooklinen Luxe Core Sheet Set Queen",
+            "quantity": 30.0,
+            "unit_price": 4770.0,
+            "total_price": 143100.0,
+            "category": "Bedding & Linens"
+          }
+        ],
+        "SpecialNotes": [
+          "For questions please contact Ryan Roynalds at 2144423242"
+        ],
+        "_saved_at": "2025-10-31T10:49:36.761154"
+      },
+      {
+        "invoiceID": "R-1093-26824",
+        "Filename": "R-1093-26824.pdf",
+        "AIPromptTokens": 810,
+        "AICompletionTokens": 622,
+        "ProcessingDateTime": "2025-10-31T10:49:49.660494",
+        "PreTaxTotal": 4060.2200000000003,
+        "TaxTotal": 261.4662000000001,
+        "PostTaxTotal": 4321.6862,
+        "LineItems": [
+          {
+            "description": "To Kill A Mockingbird \u2013 Harper Lee \u2013 Hardcover",
+            "quantity": 15.0,
+            "unit_price": 22.49,
+            "total_price": 337.35,
+            "category": "Books (Physical)"
+          },
+          {
+            "description": "The Great Gatsby \u2013 F. Scott Fitzgerald",
+            "quantity": 16.0,
+            "unit_price": 14.99,
+            "total_price": 239.84,
+            "category": "Books (Physical)"
+          },
+          {
+            "description": "Educated \u2013 Tara Westover \u2013 Paperback",
+            "quantity": 10.0,
+            "unit_price": 18.99,
+            "total_price": 189.9,
+            "category": "Books (Physical)"
+          },
+          {
+            "description": "Hasbro Monopoly Deluxe Edition",
+            "quantity": 20.0,
+            "unit_price": 29.99,
+            "total_price": 599.8,
+            "category": "Toys & Games"
+          },
+          {
+            "description": "Mattel UNO Card Game",
+            "quantity": 17.0,
+            "unit_price": 9.99,
+            "total_price": 169.83,
+            "category": "Toys & Games"
+          },
+          {
+            "description": "Ravensburger 1000-Piece Jigsaw Puzzle",
+            "quantity": 24.0,
+            "unit_price": 19.99,
+            "total_price": 479.76,
+            "category": "Toys & Games"
+          },
+          {
+            "description": "Nerf Elite Blaster \u2013 25 Darts",
+            "quantity": 15.0,
+            "unit_price": 39.99,
+            "total_price": 599.85,
+            "category": "Toys & Games"
+          },
+          {
+            "description": "Breville Smart Toaster Oven \u2013 Compact",
+            "quantity": 6.0,
+            "unit_price": 149.0,
+            "total_price": 894.0,
+            "category": "Small Kitchen Appliances"
+          },
+          {
+            "description": "Hamilton Beach 2-Slice Toaster \u2013 Brushed Steel",
+            "quantity": 8.0,
+            "unit_price": 34.99,
+            "total_price": 279.92,
+            "category": "Small Kitchen Appliances"
+          },
+          {
+            "description": "Cuisinart 12-Cup Coffee Maker \u2013 Programmable",
+            "quantity": 3.0,
+            "unit_price": 89.99,
+            "total_price": 269.97,
+            "category": "Coffee & Tea"
+          }
+        ],
+        "SpecialNotes": [
+          "Items are non-taxable due to 'Used' status"
+        ],
+        "_saved_at": "2025-10-31T10:49:49.660574"
+      },
+      {
+        "invoiceID": "R-1093-27243",
+        "Filename": "R-1093-27243.pdf",
+        "AIPromptTokens": 738,
+        "AICompletionTokens": 517,
+        "ProcessingDateTime": "2025-10-31T10:50:02.379105",
+        "PreTaxTotal": 8917.73,
+        "TaxTotal": 587.5527,
+        "PostTaxTotal": 9505.2827,
+        "LineItems": [
+          {
+            "description": "Amazon Basics Rechargeable AA Batteries \u2013 12 Pack",
+            "quantity": 40.0,
+            "unit_price": 15.99,
+            "total_price": 639.6,
+            "category": "Batteries"
+          },
+          {
+            "description": "MeadowPaws Chicken & Rice Dog Food \u2013 15 lb Bag",
+            "quantity": 43.0,
+            "unit_price": 29.99,
+            "total_price": 1289.57,
+            "category": "Pet Food"
+          },
+          {
+            "description": "OceanTail Salmon Cat Kibble \u2013 10 lb Bag",
+            "quantity": 40.0,
+            "unit_price": 26.49,
+            "total_price": 1059.6,
+            "category": "Pet Food"
+          },
+          {
+            "description": "NutraPet Grain-Free Dog Food \u2013 20 lb Bag",
+            "quantity": 33.0,
+            "unit_price": 39.99,
+            "total_price": 1319.67,
+            "category": "Pet Food"
+          },
+          {
+            "description": "Sierra Women\u2019s Down Puffer Jacket",
+            "quantity": 16.0,
+            "unit_price": 89.99,
+            "total_price": 1439.84,
+            "category": "Clothing"
+          },
+          {
+            "description": "Horizon Men\u2019s Slim-Fit Chinos",
+            "quantity": 25.0,
+            "unit_price": 44.99,
+            "total_price": 1124.75,
+            "category": "Clothing"
+          },
+          {
+            "description": "Luna Women\u2019s Activewear Leggings",
+            "quantity": 30.0,
+            "unit_price": 29.99,
+            "total_price": 899.7,
+            "category": "Clothing"
+          },
+          {
+            "description": "GoldenLeaf 14K Gold Hoop Earrings",
+            "quantity": 5.0,
+            "unit_price": 229.0,
+            "total_price": 1145.0,
+            "category": "Jewelry"
+          }
+        ],
+        "SpecialNotes": [
+          "For questions, please contact Ryan Roynalds at: 214-442-3242"
+        ],
+        "_saved_at": "2025-10-31T10:50:02.379200"
+      },
+      {
+        "invoiceID": "2512234",
+        "Filename": "RetailCo_Invoice.pdf",
+        "AIPromptTokens": 707,
+        "AICompletionTokens": 809,
+        "ProcessingDateTime": "2025-10-31T10:50:20.740711",
+        "PreTaxTotal": 42008.09,
+        "TaxTotal": 2225.4533500000002,
+        "PostTaxTotal": 44233.54335,
+        "LineItems": [
+          {
+            "description": "Smartwater Vapor Distilled 6 Pack 1L",
+            "quantity": 30.0,
+            "unit_price": 29.97,
+            "total_price": 899.1,
+            "category": "Bottled Water"
+          },
+          {
+            "description": "Poland Spring Natural Spring Water 24 Pack",
+            "quantity": 20.0,
+            "unit_price": 64.9,
+            "total_price": 1298.0,
+            "category": "Bottled Water"
+          },
+          {
+            "description": "Coca Cola Original 12 Pack 12 floz Cans",
+            "quantity": 12.0,
+            "unit_price": 89.99,
+            "total_price": 1078.8,
+            "category": "Soft Drinks"
+          },
+          {
+            "description": "Sprite Lemon Lime 8 Pack 12 floz Bottles",
+            "quantity": 13.0,
+            "unit_price": 79.99,
+            "total_price": 1038.87,
+            "category": "Soft Drinks"
+          },
+          {
+            "description": "Black Mild Cigars Wine Tip 5 Pack",
+            "quantity": 40.0,
+            "unit_price": 74.99,
+            "total_price": 2999.6,
+            "category": "Tobacco Products"
+          },
+          {
+            "description": "Advil Ibuprofen Tablets 200mg 100 Count",
+            "quantity": 111.0,
+            "unit_price": 119.99,
+            "total_price": 13308.89,
+            "category": "Over-the-Counter Medicine"
+          },
+          {
+            "description": "Tylenol Extra Strength Caplets 500mg 100 Count",
+            "quantity": 45.0,
+            "unit_price": 129.99,
+            "total_price": 5845.55,
+            "category": "Over-the-Counter Medicine"
+          },
+          {
+            "description": "Claritin 24 Hour Allergy Relief Tablets 30 Count",
+            "quantity": 32.0,
+            "unit_price": 219.99,
+            "total_price": 7036.68,
+            "category": "Vitamins & Supplements"
+          },
+          {
+            "description": "Duracell Automotive Battery Group H78 00 CCA",
+            "quantity": 14.0,
+            "unit_price": 179.99,
+            "total_price": 2519.86,
+            "category": "Automotive Parts"
+          },
+          {
+            "description": "NAPA Legend Premium Battery Group 75690 CCA",
+            "quantity": 14.0,
+            "unit_price": 162.99,
+            "total_price": 2281.86,
+            "category": "Automotive Parts"
+          },
+          {
+            "description": "Michelin Defender LTX MS Tire 265/70R17",
+            "quantity": 10.0,
+            "unit_price": 198.5,
+            "total_price": 1985.0,
+            "category": "Tires"
+          },
+          {
+            "description": "Goodyear Assurance All Season Tire 225/60R16",
+            "quantity": 12.0,
+            "unit_price": 142.99,
+            "total_price": 1715.88,
+            "category": "Tires"
+          }
+        ],
+        "SpecialNotes": [
+          "Total payment due in 30 days",
+          "Please include the invoice number on your check",
+          "Make all checks payable to Beta Shipping",
+          "If you have any questions about this invoice please contact Mike Morgan 4044549987"
+        ],
+        "_saved_at": "2025-10-31T10:50:20.740834"
+      }
+    ]
+  }
